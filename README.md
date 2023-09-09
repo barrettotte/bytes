@@ -9,4 +9,5 @@ This repo is used on my personal site at https://barrettotte.github.io/bytes/
 | Path                                | Date       | Description                                           |
 | ----------------------------------- | ---------- | ----------------------------------------------------- |
 | [3d-prints/](./3d-prints/)          | N/A        | Various things I've designed and 3D printed           |
+| [misc/](./misc/)                    | N/A        | Miscellaneous things                                  |
 | [old-posts/](./old-posts/)          | N/A        | When I tried to write posts (2017-2022)               |
