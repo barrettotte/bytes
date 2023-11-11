@@ -1,5 +1,5 @@
 # desk-phone-mount
 
-A phone mount for my monitor riser
+A mount for my Samsung Note 8
 
 ![desk-phone-mount.jpg](desk-phone-mount.jpg)
