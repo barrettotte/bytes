@@ -10,7 +10,6 @@ This roughly follows the directory structure I use in Fusion 360.
 | [ac-power-cover/](./ac-power-cover/)                   | 2023-11-11 | A small cover to put over the power button on my AC unit |
 | [desk-designs/](./desk-designs/)                       | N/A        | Things designed for my desk |
 | [laundry-handle/](./laundry-handle/)                   | 2023-08-22 | Replacement handle for my laundry basket |
-| [multimeter-probe-holder/](./multimeter-probe-holder/) | 2023-11-05 | 
 | [resin-designs/](./resin-designs/)                     | N/A        | Things designed that relate to resin printing |
 | [rtl-sdr-support/](./rtl-sdr-support/)                 | 2023-08-20 | Little support thing to hold up the RTL SDR when connected to Nooelec Ham It Up |
 | [server-top-holders/](./server-top-holders/)           | 2022-10-11 | Holders so I could stack another computer on top of my server rack |
