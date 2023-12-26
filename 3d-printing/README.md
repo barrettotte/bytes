@@ -9,7 +9,7 @@ This roughly follows the directory structure I use in Fusion 360.
 | ------------------------------------------------------ | ---------- | ------------ |
 | [ac-power-cover/](./ac-power-cover/)                   | 2023-11-11 | A small cover to put over the power button on my AC unit |
 | [desk-designs/](./desk-designs/)                       | N/A        | Things designed for my desk |
-| [ender3/](./ender3/)                                   | 2022-05-26 | My Ender 3 setup |
+| [ender3-octoprint/](./ender3-octoprint/)               | 2022-05-26 | My Ender 3 Octoprint setup |
 | [laundry-handle/](./laundry-handle/)                   | 2023-08-22 | Replacement handle for my laundry basket |
 | [resin-designs/](./resin-designs/)                     | N/A        | Things designed that relate to resin printing |
 | [rtl-sdr-support/](./rtl-sdr-support/)                 | 2023-08-20 | Little support thing to hold up the RTL SDR when connected to Nooelec Ham It Up |

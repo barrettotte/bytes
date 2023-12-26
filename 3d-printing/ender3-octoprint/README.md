@@ -1,6 +1,6 @@
-# ender3
+# ender3-octoprint
 
-My Ender 3 setup with Octoprint and remote power toggle.
+My Ender 3 Octoprint setup.
 
 I made this too long ago and unfortunately didn't document anything.
 
