@@ -1,6 +1,6 @@
-# 3d-prints
+# 3d-printing
 
-Miscellaneous things I've designed and 3D printed
+3D printed things and 3D printer stuff.
 
 I find it easier to store these in a repo instead of screwing around with sites like Thingiverse or Thangs.
 This roughly follows the directory structure I use in Fusion 360.
