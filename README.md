@@ -1,6 +1,6 @@
 # bytes
 
-Small things I've done
+Small random/miscellaneous things I've done.
 
 This repo is used on my personal site at https://barrettotte.github.io/bytes/
 
