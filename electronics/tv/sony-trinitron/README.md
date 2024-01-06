@@ -27,4 +27,4 @@ I bought an old Sony remote on eBay and it didn't work.
 But, I was able to track it down to a bad solder joint possibly messed up from
 a corroded battery. After resoldering, it worked fine.
 
-TODO: image
+![remote-holder.jpg](./remote-holder.jpg)
