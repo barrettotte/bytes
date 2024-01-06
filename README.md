@@ -8,7 +8,6 @@ This repo is used on my personal site at https://barrettotte.github.io/bytes/
 | ------------------------------------ | ----------------------------------------------------- |
 | [3d-printing/](./3d-printing/)       | 3D printed things and 3D printer stuff                |
 | [code/](./code/)                     | Miscellaneous code                                    |
-| [electrostatics/](./electrostatics/) | Things related to electrostatics                      |
+| [electronics/](./electronics/)       | Things related to electronics                         |
 | [misc/](./misc/)                     | Miscellaneous things                                  |
 | [old-posts/](./old-posts/)           | When I tried to write posts (2017-2022)               |
-| [tv/](./tv/)                         | Vintage TV stuff                                      |
