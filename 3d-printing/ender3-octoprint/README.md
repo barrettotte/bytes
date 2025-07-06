@@ -12,11 +12,9 @@ I made this too long ago and unfortunately didn't document anything.
 
 ## Octoprint
 
-I also set this up a while ago without documenting...
-
 https://octoprint.org/download/
 
-Plugins:
+### Plugins:
 
 - PSU Control
   - General > GPIO Device = `/dev/gpiochip0`
@@ -31,7 +29,34 @@ Rather than reinstalling my Ender 3's firmware (I'm lazy and hoping I can get a 
 - https://community.octoprint.org/t/octoprint-shows-my-printers-sd-card-as-uninitialized-on-my-creality-printer/35284
 - plugin: https://gist.github.com/foosel/9ca02e8a3ea0cb748f4b220981eab12d/raw/convert_TF_SD.py
 
+### GCODE
+
+Add GCODE to execute at end of print
+
+```txt
+; Ender 3 Custom End G-code
+; From: https://gist.github.com/faparicior/98f7a28c80ac7b6b20ffa771af103c56
+
+G4                           ; Wait
+M220 S100                    ; Reset Speed factor override percentage to default (100%)
+M221 S100                    ; Reset Extrude factor override percentage to default (100%)
+G91                          ; Set coordinates to relative
+G1 F1800 E-3                 ; Retract filament 3 mm to prevent oozing
+G1 F3000 Z20                 ; Move Z Axis up 20 mm to allow filament ooze freely
+G90                          ; Set coordinates to absolute
+G1 X0 Y{machine_depth} F1000 ; Move Heat Bed to the front for easy print removal
+M106 S0                      ; Turn off cooling fan
+M104 S0                      ; Turn off extruder
+M140 S0                      ; Turn off bed
+M107                         ; Turn off Fan
+M84                          ; Disable stepper motors
+```
+
 ## Lack Enclosure
 
 I used someone's 3D prints to attempt to make a 3 level Ikea lack tower.
 I never managed to get plexiglass to finish the enclosure, but its been so long I'm going to keep it as is.
+
+## Bed Level Tests
+
+- https://www.thingiverse.com/thing:4616136/files
