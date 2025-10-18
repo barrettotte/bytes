@@ -7,6 +7,8 @@ This roughly follows the directory structure I use in Fusion 360.
 
 | Path                                                   | Date       | Description  |
 | ------------------------------------------------------ | ---------- | ------------ |
+| [bed-remote-holder/](./bed-remote-holder/)             | 2025-07-20 | Holds two remotes on my bed frame |
+| [cnc-designs/](./cnc-designs/)                         | N/A        | Things designed for my CNC machine |
 | [desk-designs/](./desk-designs/)                       | N/A        | Things designed for my desk |
 | [ender3-octoprint/](./ender3-octoprint/)               | 2022-05-26 | My Ender 3 Octoprint setup |
 | [laundry-handle/](./laundry-handle/)                   | 2023-08-22 | Replacement handle for my laundry basket |
