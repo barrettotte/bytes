@@ -1,11 +1,7 @@
 ---
 title: Simple Vacuum Tube Amplifier
 date: 2022-08-28
-tags:
-    - hardware
-    - openscad
-    - vacuum-tube
-    - vintage
+summary: Simple vacuum tube amplifier
 ---
 
 For a hobby project I needed to learn the basics of how vacuum tubes work.

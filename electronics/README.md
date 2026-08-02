@@ -2,10 +2,12 @@
 
 Things related to electronics
 
-| Path                                | Date       | Description |
-| ----------------------------------- | ---------- | ----------- |
-| [electrophorus/](./electrophorus/)  | 2023-11-09 | Basic electrophorus |
-| [electroscope/](./electroscope/)    | 2023-09-14 | Beer bottle electroscope |
-| [leyden-jar/](./leyden-jar/)        | 2023-11-16 | Two leyden jars |
-| [tv/](./tv/)                        | -          | Vintage TV stuff |
-| [vacuum-tube-amplifier/](./vacuum-tube-amplifier/) | 2022-08-28 | Simple vacuum tube amplifier |
+<!-- bytes:index:start -->
+| Item | Date | Description |
+| --- | --- | --- |
+| [Leyden Jar](./leyden-jar/) | 2023-11-16 | Two Leyden jars |
+| [Electrophorus](./electrophorus/) | 2023-11-09 | Basic electrophorus |
+| [Electroscope](./electroscope/) | 2023-09-14 | Beer bottle electroscope |
+| [Simple Vacuum Tube Amplifier](./vacuum-tube-amplifier/) | 2022-08-28 | Simple vacuum tube amplifier |
+| [tv](./tv/) | N/A | Vintage TV stuff. |
+<!-- bytes:index:end -->

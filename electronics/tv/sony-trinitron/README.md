@@ -1,3 +1,9 @@
+---
+title: Sony Trinitron
+date: 2023-12-23
+summary: Sony Trinitron stuff
+---
+
 # sony-trinitron
 
 Sony Trinitron stuff.

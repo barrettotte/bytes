@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: bytes-readmes
+        name: validate generated README indexes
+        entry: env UV_CACHE_DIR=/tmp/bytes-uv-cache uv run python scripts/bytes.py check
+        language: system
+        pass_filenames: false
+        always_run: true
+        files: '(^|/)README\.md$|^bytes\.toml$|^scripts/bytes\.py$'

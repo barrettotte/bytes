@@ -1,3 +1,9 @@
+---
+title: Bed Remote Holder
+date: 2025-07-20
+summary: Holds two remotes on my bed frame
+---
+
 # bed-remote-holder
 
 Holds two remotes on my bed frame

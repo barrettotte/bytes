@@ -1,3 +1,9 @@
+---
+title: Vtuber Joke
+date: 2024-01-05
+summary: Simple vtuber as a joke
+---
+
 # vtuber
 
 (2024-01-06)

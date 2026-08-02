@@ -1,3 +1,9 @@
+---
+title: Leyden Jar
+date: 2023-11-16
+summary: Two Leyden jars
+---
+
 # leyden-jar
 
 The simplest capacitor, discovered around 1745 - https://en.wikipedia.org/wiki/Leyden_jar

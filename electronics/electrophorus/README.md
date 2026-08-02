@@ -1,3 +1,9 @@
+---
+title: Electrophorus
+date: 2023-11-09
+summary: Basic electrophorus
+---
+
 # electrophorus
 
 The simplest electrostatic generator - https://en.wikipedia.org/wiki/Electrophorus

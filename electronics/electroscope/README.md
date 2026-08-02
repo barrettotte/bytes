@@ -1,3 +1,9 @@
+---
+title: Electroscope
+date: 2023-09-14
+summary: Beer bottle electroscope
+---
+
 # electroscope
 
 A simple beer bottle electroscope

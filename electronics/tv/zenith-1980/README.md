@@ -1,3 +1,9 @@
+---
+title: Zenith 1980
+date: 2023-12-31
+summary: 1980 Zenith AC/DC black and white TV stuff
+---
+
 # zenith-1980
 
 1980 Zenith AC/DC black and white TV stuff.

@@ -1,3 +1,9 @@
+---
+title: Ender 3 Octoprint
+date: 2022-05-26
+summary: My Ender 3 Octoprint setup
+---
+
 # ender3-octoprint
 
 My Ender 3 Octoprint setup.

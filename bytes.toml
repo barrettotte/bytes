@@ -1,0 +1,19 @@
+exclude = ["archived"]
+
+indexes = [
+  ".",
+  "3d-printing",
+  "3d-printing/cnc-designs",
+  "3d-printing/desk-designs",
+  "3d-printing/resin-designs",
+  "code",
+  "electronics",
+  "electronics/tv",
+  "misc",
+]
+
+[[items]]
+path = "code/first-program.cpp"
+title = "My First Program (C++)"
+date = 2011-09-06
+summary = "My first program"
