@@ -78,16 +78,46 @@ def read_item(readme: Path) -> Item:
 
     # Keep item metadata deliberately small so README files remain the source of truth.
     required = {"title", "date", "summary"}
+    supported = required | {"models"}
     fields = set(metadata)
-    if fields != required:
+    if not required.issubset(fields) or not fields.issubset(supported):
         missing = sorted(required - fields)
-        extra = sorted(fields - required)
+        extra = sorted(fields - supported)
         details = []
         if missing:
             details.append(f"missing {', '.join(missing)}")
         if extra:
             details.append(f"unsupported {', '.join(extra)}")
         raise ValidationError(f"{readme.relative_to(ROOT)}: {'; '.join(details)}")
+
+    models = metadata.get("models")
+    if models is not None and not isinstance(models, (bool, dict)):
+        raise ValidationError(
+            f"{readme.relative_to(ROOT)}: 'models' must be true, false, or a mapping"
+        )
+    if isinstance(models, dict):
+        unsupported = set(models) - {"include", "exclude"}
+        if unsupported:
+            raise ValidationError(
+                f"{readme.relative_to(ROOT)}: unsupported models fields: "
+                f"{', '.join(sorted(unsupported))}"
+            )
+        include = models.get("include")
+        if not isinstance(include, list) or not include or not all(
+            isinstance(pattern, str) and pattern.strip() for pattern in include
+        ):
+            raise ValidationError(
+                f"{readme.relative_to(ROOT)}: models.include must be a non-empty list of patterns"
+            )
+        exclude = models.get("exclude")
+        if exclude is not None and (
+            not isinstance(exclude, list)
+            or not exclude
+            or not all(isinstance(pattern, str) and pattern.strip() for pattern in exclude)
+        ):
+            raise ValidationError(
+                f"{readme.relative_to(ROOT)}: models.exclude must be a non-empty list of patterns"
+            )
 
     for field in ("title", "summary"):
         if not isinstance(metadata[field], str) or not metadata[field].strip():

@@ -2,6 +2,7 @@
 title: AC Redirect
 date: 2026-08-02
 summary: Redirecting my AC unit exhaust at a different angle so I can keep a cat bed on my window sill.
+models: true
 ---
 
 # AC Redirect

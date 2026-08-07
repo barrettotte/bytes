@@ -2,6 +2,7 @@
 title: Electrophorus
 date: 2023-11-09
 summary: Basic electrophorus
+models: true
 ---
 
 # electrophorus

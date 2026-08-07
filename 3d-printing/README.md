@@ -8,6 +8,7 @@ This roughly follows the directory structure I use in Fusion 360.
 <!-- bytes:index:start -->
 | Item | Date | Description |
 | --- | --- | --- |
+| [Desk Extender](./desk-extender/) | 2026-08-04 | A simple desk extender to fill the gap between furniture. |
 | [AC Redirect](./ac-redirect/) | 2026-08-02 | Redirecting my AC unit exhaust at a different angle so I can keep a cat bed on my window sill. |
 | [Bed Remote Holder](./bed-remote-holder/) | 2025-07-20 | Holds two remotes on my bed frame |
 | [TV Foot CRT](./tv-foot-crt/) | 2023-12-22 | Some new feet for my TV that I put on top of an old CRT |

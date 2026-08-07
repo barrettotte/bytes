@@ -8,3 +8,9 @@ repos:
         pass_filenames: false
         always_run: true
         files: '(^|/)README\.md$|^bytes\.toml$|^scripts/bytes\.py$'
+      - id: web-models
+        name: generate web-ready GLB models
+        entry: env UV_CACHE_DIR=/tmp/bytes-uv-cache uv run python scripts/models.py generate
+        language: system
+        pass_filenames: false
+        always_run: true

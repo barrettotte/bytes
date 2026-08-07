@@ -2,6 +2,7 @@
 title: Electroscope
 date: 2023-09-14
 summary: Beer bottle electroscope
+models: true
 ---
 
 # electroscope

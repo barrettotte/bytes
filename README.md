@@ -12,12 +12,17 @@ This repo is used on my personal site at https://barrettotte.github.io/bytes/
 | `make generate` | Regenerate all README indexes |
 | `make check` | Validate metadata and check for stale indexes |
 | `make hooks` | Install pre-commit hook |
+| `make models` | Generate missing or stale GLBs from STL sources |
+| `make models-check` | Validate generated GLBs |
+
+STLs are the editable sources. Opt an item into web GLB generation with `models: true` or a `models.include`/`models.exclude` mapping in its README frontmatter; the pre-commit hook mirrors configured models under `web-models/`.
 
 ## Items
 
 <!-- bytes:index:start -->
 | Item | Date | Description |
 | --- | --- | --- |
+| [Desk Extender](./3d-printing/desk-extender/) | 2026-08-04 | A simple desk extender to fill the gap between furniture. |
 | [AC Redirect](./3d-printing/ac-redirect/) | 2026-08-02 | Redirecting my AC unit exhaust at a different angle so I can keep a cat bed on my window sill. |
 | [Bed Remote Holder](./3d-printing/bed-remote-holder/) | 2025-07-20 | Holds two remotes on my bed frame |
 | [CNC Controller Holder](./3d-printing/cnc-designs/cnc-controller-holder/) | 2024-03-04 | A mount for my CNC router's controller |
